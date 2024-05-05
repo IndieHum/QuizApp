@@ -75,6 +75,7 @@ function NextQuestionHandler() {
         case 9:
             return;
         default:
+            if (QIndex == 8) NextButton.style.display = "none";
             QIndex++;
             QuestionNumberPanel.innerText = QIndex + 1;
             ClickAble = true;
