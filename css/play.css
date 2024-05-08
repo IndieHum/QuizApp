@@ -15,7 +15,13 @@
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
+}
+
+.category-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .signs {
@@ -29,11 +35,10 @@
 }
 
 .cube {
-  padding: 3px;
+  padding: 5px;
   border-radius: 5px;
   background-color: #fff;
   font-size: 1.2rem;
-  width: 50px;
   text-align: center;
 }
 
